@@ -19,6 +19,7 @@ class TibiaWorldItem(scrapy.Item):
 	pvp = scrapy.Field()
 	location = scrapy.Field()
 	additionalInformation = scrapy.Field()
+	players = scrapy.Field()
 
 class TibiaPlayerItem(scrapy.Item):
 	name = scrapy.Field()
