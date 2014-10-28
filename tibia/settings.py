@@ -12,6 +12,9 @@ BOT_NAME = 'tibia'
 
 SPIDER_MODULES = ['tibia.spiders']
 NEWSPIDER_MODULE = 'tibia.spiders'
+ITEM_PIPELINES = {
+	'tibia.pipelines.TibiaPipeline' : 300
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tibia (+http://www.yourdomain.com)'
+USER_AGENT = 'tstats (+http://www.yourdomain.com) mk@trou.pl'
