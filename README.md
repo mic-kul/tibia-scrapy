@@ -1,4 +1,6 @@
-tibia-scrapy
+tibia scrapy spiders
 ============
 
-tibia.com scrapy files
+Spiders for tibia.com website:
+- worlds - for scraping list of worlds
+- online - for scraping list of online players for each world
